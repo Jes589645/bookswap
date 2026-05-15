@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;600;700&family=Work+Sans:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Domine", serif;
+  --font-sans: "Work Sans", sans-serif;
+
+  --color-surface: #fcf9f8;
+  --color-surface-dim: #dcd9d9;
+  --color-surface-container-low: #f4f1f0;
+  --color-surface-container: #edeae9;
+  --color-surface-container-high: #e7e4e3;
+  --color-on-surface: #1b1c1c;
+  --color-on-surface-variant: #434843;
+
+  --color-primary: #0b2d18;
+  --color-primary-container: #d2e8d8;
+  --color-on-primary: #ffffff;
+  
+  --color-secondary: #665e4b;
+  --color-secondary-container: #ebdec6;
+  
+  --color-tertiary: #2e1e0a;
+  --color-tertiary-container: #f9ead0;
+  
+  --color-outline: #737973;
+  --color-outline-variant: #c3c8c1;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-sans);
+  background-image: radial-gradient(rgba(27, 48, 34, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
